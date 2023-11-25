@@ -1,0 +1,65 @@
+
+.page{
+    width: device-width;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-position: 0%;
+    background-image: repeating-linear-gradient(rgba(3, 187, 12, 0.884) 30%,rgba(7, 187, 76, 0.849) 40%,rgba(59, 12, 230, 0.918));
+    background-size: contain;
+    background-attachment: fixed;
+    #logo{
+        left: 0;
+        margin: 3px;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        position: initial;
+    }
+    #name {
+        font-size: x-large;
+        margin: 6px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 20px;
+        height: 10px;
+        position: absolute;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        left: 75px;
+        top: 13px;
+        border: 0;
+       
+
+    }
+    #slogan{
+        position: absolute;
+        font-style: italic;
+        font-size: medium;
+        margin: 10px;
+        color: rgba(3, 3, 3, 0.89);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        left: 80px;
+        top: 5%;
+    }
+    #signup{
+        position: absolute;
+        top: 30px;
+        right: 80px;
+    }
+    #login{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+
+    }
+    #or{
+        position: absolute;
+        top: 15px;
+        right: 62px;
+    }
+    #img1{
+        height: 100px;
+        width: device-widht ;
+    }
+
+}
